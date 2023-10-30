@@ -1,0 +1,27 @@
+@import "../abstract/variaveis";
+
+#pedra-e-flor {
+  padding: 2rem;
+  .imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .texto {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    background-color: $cor-terciaria;
+    h3 {
+      font-size: $tamanho-do-texto/2;
+      color: $cor-primaria;
+    }
+    h4 {
+      font-size: $tamanho-do-texto/2.5;
+      color: $cor-primaria;
+    }
+    p {
+      color: $cor-primaria;
+    }
+  }
+}
